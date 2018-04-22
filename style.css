@@ -1,0 +1,84 @@
+html, body {
+  font-family: Work Sans;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #fefefe;
+}
+
+.welcome {
+  margin-top: 3em;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.bots_signs {
+  margin-top: 2em;
+  display: flex;
+  font-size: 0.9em;
+}
+
+.single_bot_sing {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.board_grid {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  grid-column-gap: 0.3em;
+  grid-row-gap: 0.3em;
+}
+
+.signegrid {
+  background-color: #e2e2e2;
+  height: 3.5em;
+  padding-top: 2.5em;
+  font-size: 0.8em;
+}
+
+.X {
+  background-color: lightcoral;
+  height: 3.5em;
+  padding-top: 2.5em;
+  font-size: 0.8em;
+}
+
+.Y {
+  background-color: #b4b4f6;
+  height: 3.5em;
+  padding-top: 2.5em;
+  font-size: 0.8em;
+}
+
+.first_sign {
+  color: lightcoral;
+}
+
+.second_sign {
+  background-color: #fefefe;
+}
+
+.first_sign.nonhighlighted {
+  background-color: #fefefe !important;
+  color: black;
+}
+
+.second_sign.highlighted {
+  color: #b4b4f6;
+}
+
+.rules {
+  margin-top: 2em;
+  width: 100%;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 0.8em;
+  margin: 0.2em;
+}
