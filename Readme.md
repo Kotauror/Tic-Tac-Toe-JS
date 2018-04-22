@@ -5,4 +5,4 @@ Bots play according to the following logic:
   - pick a winning position if possible;
   - pick a random position.
 
-Open index.htm in the browser to play! :) 
+Open index.htm in the browser or go to http://bot-game.surge.sh/ to play! :) 
